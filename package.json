@@ -1,0 +1,65 @@
+{
+    "author": "manwithpowers/Chris Lewis",
+    "dependencies": {
+        "@rebble/clay": "^1.0.8",
+        "pebble-packet": "^1.6.0",
+        "pebble-scalable": "^2.2.0"
+    },
+    "keywords": [
+        "pebble-app"
+    ],
+    "name": "thin-digi",
+    "pebble": {
+        "capabilities": [
+            "configurable",
+            "health"
+        ],
+        "displayName": "Thin Digilogue",
+        "enableMultiJS": true,
+        "messageKeys": [
+            "EnableBattery",
+            "EnableSecondHand",
+            "EnableDate",
+            "EnableBT",
+            "EnableSteps",
+            "ColorBackground",
+            "ColorHourMinutes",
+            "ColorSeconds",
+            "ColorNotches",
+            "ColorMonthDay",
+            "ColorDate",
+            "EnableHR"
+        ],
+        "projectType": "native",
+        "resources": {
+            "media": [
+                {
+                    "file": "images/menu_icon.png",
+                    "menuIcon": true,
+                    "name": "MENU_ICON",
+                    "type": "bitmap"
+                },
+                {
+                    "file": "fonts/Gotcha-Gothic.ttf",
+                    "name": "GOTCHA_GOTHIC_32",
+                    "type": "font"
+                }
+            ]
+        },
+        "sdkVersion": "3",
+        "targetPlatforms": [
+            "aplite",
+            "basalt",
+            "chalk",
+            "diorite",
+            "emery",
+            "gabbro",
+            "flint"
+        ],
+        "uuid": "8f441dc0-ae9b-4b18-b06d-1452917e6b70",
+        "watchapp": {
+            "watchface": true
+        }
+    },
+    "version": "1.0.0"
+}
